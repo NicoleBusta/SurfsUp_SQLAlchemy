@@ -23,12 +23,19 @@ def Welcome():
     
     return(
     '''
-    Welcome to the Hawaii Precipitation Analysis API!
-    Available Routes:
-    /api/v1.0/precipitation
-    /api/v1.0/stations
-    /api/v1.0/tobs
-    /api/v1.0/temp/start/end
+    <h1> Welcome to the Hawaii Precipitation Analysis API! </>
+    <br>
+    <br>
+    <h1> Available Routes: </>
+    <br>
+    <br>
+    <a href = "/api/v1.0/precipitation" > /api/v1.0/precipitation </a>
+    <br>
+    <a href = "/api/v1.0/stations"> /api/v1.0/stations </a>
+    <br>
+    <a href = "/api/v1.0/tobs"> /api/v1.0/tobs </a>
+    <br>
+    <a href = "/api/v1.0/temp/start/end"> /api/v1.0/temp/start/end </a>
     ''')
 
 @app.route("/api/v1.0/precipitation")
