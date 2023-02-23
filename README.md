@@ -1,4 +1,4 @@
-# SurfsUp_SQLAlchemy
+# Surfs Up SQLAlchemy
 
 <img src = "Resources/Honolulu Surfs Up.png">
 
@@ -20,13 +20,8 @@ The following steps were completed to conduct this analysis:
 <img src = "Resources/TOBSGraph.png">
 <br>
 
-## Summary
-Based on the analysis, 
-
-
-
 ## Resources
 #### Data Source: 
-hawaii.sqlite
+hawaii_measurements.csv, hawaii_stations.csv, hawaii.sqlite
 #### Software: 
 SQLAlchemy, Python, Jupyter Notebook, Flask, VSCode
